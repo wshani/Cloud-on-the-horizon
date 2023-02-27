@@ -17,6 +17,10 @@ html {
   line-height: 1.4;
   font-family: "Proxima Nova Regular";
   background-color: #e3b639;
+  background-image: url('https://images.getbento.com/accounts/f468abc38bf68e2c74a93581297771cf/media/images/46331distressed-texture.png');
+  background-repeat: repeat;
+  height: 100vh;
+  width: 100%;
 }
 
 /*
