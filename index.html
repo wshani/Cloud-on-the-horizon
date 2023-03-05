@@ -1,12 +1,9 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="">
 
 <head>
-  <!--  character encoding standard -->
   <meta charset="utf-8">
-
-  <title>Cloud on the Horizon</title>
-
+  <title>menu</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -19,101 +16,53 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
-<!--  <link rel="stylesheet" href="css/normalize.css">-->
-
-  <!-- this is the css style sheet -->
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
+<div id="full-screen">
 
 
-<!-- add the logo
-    create classes for the logo-->
-  <div class="logo box1">
-    <img src="img/logo.png" alt="logo" class="fit-image">
-  </div>
-
-  <main>
-    <!-- create a section for foods -->
-    <section>
-      <h2>Food</h2>
-      <!-- add class cards for view the foods as cards -->
-      <div class="cards">
-        <div class="card">
-          <img src="img/burger.png" alt="food 1">
-          <h3>Burger</h3>
-          <p>name</p>
-          <span>70kr</span>
-        </div>
-        <div class="card">
-          <img src="img/tacos.png" alt="food 2">
-          <h3>Taco</h3>
-          <p>name</p>
-          <span>60kr</span>
-        </div>
-        <div class="card">
-          <img src="img/french_fries.png" alt="food 3">
-          <h3>French Fries</h3>
-          <p>name</p>
-          <span>50kr</span>
-        </div>
+  <div class="vertical">
+    <div class="box3">
+      <div class="box6"><img src="img/logo.png" alt="Logo" class="fit-image"></div>
+      <div class="box7">
+        <button id="menu-btn">Menu</button>
+        <button id="login-btn">Login</button>
+        <button id="contact-btn">Contact</button>
       </div>
-    </section>
+    </div>
+<!--    <div class="box4">-->
+      <div class="horizontal">
+        <div class="box1">
 
-    <!-- create a section for cocktails -->
-    <section>
-      <!-- add class cards for view the cocktails as cards -->
-      <h2>Cocktails</h2>
-      <div class="cards">
-        <div class="card">
-          <img src="image" alt="cocktail 1">
-          <h3>Cocktail 1</h3>
-          <p>name</p>
-          <span>$12.99</span>
+          <section>
+            <h1>Beer</h1>
+            <table>
+              <thead>
+              <tr>
+
+                <th>Name</th>
+                <th>Price</th>
+              </tr>
+              </thead>
+              <tbody id="users-list">
+              <!-- Users list will be dynamically populated here -->
+              </tbody>
+            </table>
+          </section>
+
         </div>
-        <div class="card">
-          <img src="https://via.placeholder.com/200x150" alt="Main Course 2">
-          <h3>Cocktail 2</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, metus vel faucibus congue, mi turpis aliquam ex, vel dignissim eros sapien vitae metus.</p>
-          <span>$14.99</span>
-        </div>
-        <div class="card">
-          <img src="https://via.placeholder.com/200x150" alt="Main Course 3">
-          <h3>Cocktail 3</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, metus vel faucibus congue, mi turpis aliquam ex, vel dignissim eros sapien vitae metus.</p>
-          <span>$16.99</span>
-        </div>
-      </div>
-    </section>
+        <div class="box2"></div>
+<!--      </div>-->
+    </div>
 
-    <section>
-      <h2>Wines</h2>
-      <div class="cards">
-        <div class="card">
-          <img src="https://via.placeholder.com/200x150" alt="Dessert 1">
-          <h3>Wine 1
-          </h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, metus vel faucibus congue, mi turpis aliquam ex, vel dignissim eros sapien vitae metus.</p>
-          <span>$6.99</span>
-        </div>
-        <div class="card">
-          <img src="https://via.placeholder.com/200x150" alt="Dessert 2">
-          <h3>Wine 2</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, metus vel faucibus congue, mi turpis aliquam ex, vel dignissim eros sapien vitae metus.</p>
-          <span>$7.99</span>
-        </div>
-        <div class="card">
-          <img src="https://via.placeholder.com/200x150" alt="Dessert 3">
-          <h3>Wine 3</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, metus vel faucibus congue, mi turpis aliquam ex, vel dignissim eros sapien vitae metus.</p>
-          <span>$8.99</span>
-        </div>
-      </div>
-    </section>
-  </main>
+
+</div>
+</div>
 
 
 
@@ -121,10 +70,15 @@
 
 
 
-<!--            <script src="js/vendor/modernizr-3.11.2.min.js"></script>-->
+
+
+
+
+
+<!-- Add your site or application content here -->
+<!--  <p>Hello world! This is HTML5 Boilerplate.</p>-->
+<!--  <script src="js/vendor/modernizr-3.11.2.min.js"></script>-->
 <!--  <script src="js/plugins.js"></script>-->
-
-<!--this is the javascript file -->
   <script src="js/main.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
